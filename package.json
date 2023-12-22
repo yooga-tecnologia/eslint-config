@@ -1,0 +1,27 @@
+{
+  "name": "@yooga/eslint-config",
+  "version": "1.0.0",
+  "description": "Style Guide for Yooga projects written in JS",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "lint": "npx eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yooga-tecnologia/eslint-config.git"
+  },
+  "keywords": [
+    "styleguide",
+    "js",
+    "lint"
+  ],
+  "author": "Ana Có",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yooga-tecnologia/eslint-config/issues"
+  },
+  "homepage": "https://github.com/yooga-tecnologia/eslint-config#readme"
+}
