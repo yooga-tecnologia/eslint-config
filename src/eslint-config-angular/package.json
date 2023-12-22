@@ -1,6 +1,6 @@
 {
   "name": "@yooga/eslint-config-angular",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A set of ESLint rules used for Angular projects, recommended by Yooga's team",
   "main": "index.js",
   "scripts": {
@@ -22,12 +22,12 @@
     "url": "https://github.com/yooga-tecnologia/eslint-config/issues"
   },
   "homepage": "https://github.com/yooga-tecnologia/eslint-config#readme",
-  "peerDependencies": {
-    "@angular-eslint/eslint-plugin": "^17.1.1",
-    "@angular-eslint/eslint-plugin-template": "^17.1.1",
-    "@angular-eslint/template-parser": "^17.1.1",
-    "@typescript-eslint/eslint-plugin": "^6.15.0",
-    "@typescript-eslint/parser": "^6.15.0",
-    "eslint": "^8.56.0"
+  "dependencies": {
+    "@angular-eslint/eslint-plugin": "17.1.1",
+    "@angular-eslint/eslint-plugin-template": "17.1.1",
+    "@angular-eslint/template-parser": "17.1.1",
+    "@typescript-eslint/eslint-plugin": "6.15.0",
+    "@typescript-eslint/parser": "6.15.0",
+    "eslint": "8.56.0"
   }
 }

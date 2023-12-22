@@ -26,19 +26,35 @@ module.exports = {
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@angular-eslint/recommended",
-        // This is required if you use inline templates in Components
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
 
       rules: {
-        "@angular-eslint/directive-selector": [
+        "@angular-eslint/use-lifecycle-interface": ["error"],
+        "@angular-eslint/component-class-suffix": [
           "error",
-          { "type": "attribute", "prefix": "app", "style": "camelCase" }
+          {
+            "suffixes": [
+              "Component",
+              "Page",
+              "Modal",
+            ]
+          }
         ],
         "@angular-eslint/component-selector": [
           "error",
-          { "type": "element", "prefix": "app", "style": "kebab-case" }
-        ]
+          {
+            "style": "kebab-case",
+            "type": "element"
+          }
+        ],
+        "@angular-eslint/directive-selector": [
+          "error",
+          {
+            "style": "camelCase",
+            "type": "attribute"
+          }
+        ],
       }
     },
 
@@ -49,7 +65,6 @@ module.exports = {
       "files": ["*.html"],
       "extends": [
         "plugin:@angular-eslint/template/recommended",
-        "plugin:@angular-eslint/template/accessibility"
       ],
       "rules": {
         /**
