@@ -1,0 +1,10 @@
+
+## Plugins
+/src/eslint-config-base/ @yooga-tecnologia/teams/squad-origem
+/src/eslint-config-angular/ @yooga-tecnologia/teams/squad-origem
+/src/eslint-config-vue/ @yooga-tecnologia/teams/squad-origem
+
+#
+# Adding new packages? please check full documentation
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners#codeowners-syntax
+#

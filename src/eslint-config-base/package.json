@@ -1,0 +1,30 @@
+{
+  "name": "@yooga/eslint-config-base",
+  "version": "1.0.0",
+  "description": "A base eslint config for JS files",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint"
+  },
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yooga-tecnologia/eslint-config.git"
+  },
+  "keywords": [
+    "styleguide",
+    "js",
+    "lint",
+    "base-config"
+  ],
+  "author": "Ana Có",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yooga-tecnologia/eslint-config/issues"
+  },
+  "homepage": "https://github.com/yooga-tecnologia/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-markdown": "^3.0.1"
+  }
+}
